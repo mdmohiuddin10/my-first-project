@@ -9,17 +9,19 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+
 }
 .logo {
-    width: 120px;   
+    width: 120px; 
+    margin-left: 35px;  
+    margin-right: 400px;
 }
 .menus {
     display: flex;
 }
 .item {
-    margin-right: 10px;
-    padding-right: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
     font-size: 18px;
 }
 .item:hover {
@@ -37,6 +39,8 @@
     border: 2px solid gray;
     background-color: black;
     color: #fff;
+    background-position: center;
+    background-size: cover;
 
 }
 h1 {
@@ -44,8 +48,59 @@ h1 {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-p {
+.b-text {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+button {
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: red;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+.banner-img {
+    margin-right: 20px;
+}
+.about-container {
+    background-color: #fff;
+    padding: 10px;
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+.photo {
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about {
+    text-align: center;
+    margin-top: 120px;
+}
+.about-text {
+    margin-left: 20px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+p {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
