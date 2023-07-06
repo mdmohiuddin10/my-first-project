@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-container {
+    background-color: rgb(19, 18, 18) ;
+    padding: 10px;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 120px;
+}
+.menus {
+    display: flex;
+}
