@@ -104,3 +104,36 @@ p {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44, 41, 41);
+}
+.service {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.box {
+    width: 200px;
+    height: 300px;
+    border: 2px solid gray;
+    background-color:aquamarine;
+    text-align: center;
+    padding: 15px;
+}
+.html {
+    width: 70px;
+   
+}
+.web {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.lorem {
+    margin: 10px;
+}
